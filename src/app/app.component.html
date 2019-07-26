@@ -1,0 +1,8 @@
+<div *ngFor='let list of brandArr'>
+<brand1 [brandName] = "list.name" [brandLink] = 'list.link' [brandDesc] = 'list.desc' [brandLogo] = 'list.logo' (removeBrandEvent) = 'removeList($event)'></brand1>
+ 
+
+</div>
+<p>
+  Start editing to see some magic happen :)
+</p>
